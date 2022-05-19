@@ -1,6 +1,6 @@
 <template>
   <div class="sollicitatiebrief" contenteditable="true">
-    <section class="peronalia pt-5">
+    <section class="peronalia">
       <div class="personalia-logo">
         <img src="@/assets/img/logo.jpg" alt="Mohammad Ayash" />
         <h1>Mohammad Ayash</h1>
