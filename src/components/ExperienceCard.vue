@@ -1,7 +1,7 @@
 <template>
-  <div class="col-2 experience-card">
+  <div class="experience-card">
       <div class="experience-image">
-        <img :src="getImgUrl(cardImg)" />
+        <slot></slot>
       </div>
       <div class="experience-info">
         <p class="experience-category">{{ cardText }}</p>
@@ -10,29 +10,27 @@
 </template>
 <script>
 export default {
-  props: ["cardImg", "cardText"],
-  data() {
-    return {
-      imgSrc:this.cardImg
-    }
-  },
+  props: ["cardText"],
+  
   methods:{
-    getImgUrl(cardImg){
-        return require(`${cardImg}`);
-    }
+   
   }
 };
 </script>
 <style>
 .experience-card {
-  background-color: rgb(101, 157, 243);
-  border: 1px solid rgb(18, 17, 17);
-  border-radius: 10px;
-  margin: 20px 40px;
-  box-shadow: 5px 5px 5px 5px rgb(242, 245, 247);
+  background-color: rgba(244, 243, 223, 0.548);
+  max-width: 21%;
+  margin: 1em;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 10%;
 }
 .experience-card:hover {
   transform: scale(1.1);
+}
+.experience-card a {
+  text-decoration: none;
 }
 
 .experience-card:hover .experience-image {
@@ -47,10 +45,25 @@ export default {
   color: coral;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align: center;
+  
 }
-@media (max-width: 400px) {
-  .experience-category{
+.experience-category small {
+  display: block;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .experience-card{
+    max-width: 30%;
+  }
+  
+}
+@media (max-width: 576px) {
+  .experience-card{
+    max-width:none;
+  }
+  .experience-category {
     font-size: 0.7em;
+    
   }
 }
 </style>

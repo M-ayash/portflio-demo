@@ -1,6 +1,6 @@
 <template>
   <header id="header" class="header">
-    <a class="logo" href="/"><h3 >Mohammad Ayash</h3></a>
+    <a class="logo" href="/"><h3>Mohammad Ayash</h3></a>
     <div class="header-menu d-print-none">
       <div class="logo-img"></div>
       <ul class="nav nav-tabs justify-content-end">
@@ -14,7 +14,9 @@
           <router-link to="/weather" class="nav-link">weather</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/sollicitatiebrief" class="nav-link">sollicitatiebrief</router-link>
+          <router-link to="/sollicitatiebrief" class="nav-link"
+            >sollicitatiebrief</router-link
+          >
         </li>
         <li class="nav-item">
           <router-link to="/help" class="nav-link">help</router-link>
@@ -37,10 +39,10 @@ header {
   align-items: center;
   padding: 10px 20px;
 }
-.logo{
+.logo {
   text-decoration: none;
 }
-.logo h3{
+.logo h3 {
   text-transform: uppercase;
   font: bold 2em Open Sans, Impact;
   text-align: center;
@@ -49,26 +51,21 @@ header {
   color: rgb(243, 243, 247);
   -webkit-text-stroke: 1px rgb(57, 90, 135);
 }
-.logo h3:hover{
-  background: linear-gradient( crimson , crimson) white no-repeat 0 0;
-  background-size: 0 100%;
-  animation: stripes 2s linear 1 forwards;
+.logo:hover h3 {
+  color: rgb(96, 152, 231);
 }
-.logo:hover h3{
-  mix-blend-mode: multiply;
-} 
-@keyframes stripes {
-  to {
-    background-size:100% 100%;
-  }
+.nav-item a {
+  color: #5bd2ec;
+  font-weight: bold;
 }
-
-
+.nav-item:hover {
+  transform: translateY(-10%);
+}
 @media print {
   header {
     background-color: rgb(57, 90, 135);
   }
-  header .logo h3{
+  header .logo h3 {
     color: rgb(57, 90, 135);
   }
 }

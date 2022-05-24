@@ -92,9 +92,26 @@ export default {
   font-weight: bold;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+.main-parg *:hover {
+  transform: translateY(-10%);
+
+}
 .main-parg h1 {
+  position: relative;
   font-size: 100px;
   color: rgb(18, 11, 105);
+  animation: nameStart 2s linear 0s normal;
+}
+@keyframes nameStart {
+0%{
+  transform: translate(0px,-400px);
+}
+80%{
+    transform: translate(0px,-400px);
+}
+90%{
+  transform: translate(0px,40px);
+}
 }
 .main-parg h3 {
   font-size: 50px;
@@ -130,7 +147,20 @@ export default {
   right: 5px;
   border-radius: 10px;
 }
-
+.main-img img{
+  box-shadow: 0px 0px 3px 10px #062544;
+}
+.main-img img:hover{
+  animation: rotaion 5s linear 0s infinite alternate;
+}
+@keyframes rotaion {
+  form{
+      transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-15deg);
+  }
+}
 @media (max-width: 768px) {
   .main-page {
     margin: 5px;
