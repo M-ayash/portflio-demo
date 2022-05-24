@@ -1,6 +1,6 @@
 <template>
   <header id="header" class="header">
-    <h3 class="logo"><a href="/">Mohammad Ayash</a></h3>
+    <a class="logo" href="/"><h3 >Mohammad Ayash</h3></a>
     <div class="header-menu d-print-none">
       <div class="logo-img"></div>
       <ul class="nav nav-tabs justify-content-end">
@@ -15,6 +15,9 @@
         </li>
         <li class="nav-item">
           <router-link to="/sollicitatiebrief" class="nav-link">sollicitatiebrief</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/help" class="nav-link">help</router-link>
         </li>
       </ul>
     </div>
@@ -34,36 +37,38 @@ header {
   align-items: center;
   padding: 10px 20px;
 }
-
-.logo a{
+.logo{
+  text-decoration: none;
+}
+.logo h3{
   text-transform: uppercase;
-  font: bold 1.5em Open Sans, Impact;
+  font: bold 2em Open Sans, Impact;
+  text-align: center;
+  line-height: 1.5em;
   display: table;
   color: rgb(243, 243, 247);
-  -webkit-text-stroke: 1px rgb(57, 90, 135);;
+  -webkit-text-stroke: 1px rgb(57, 90, 135);
 }
-.logo:hover{
+.logo h3:hover{
   background: linear-gradient( crimson , crimson) white no-repeat 0 0;
   background-size: 0 100%;
   animation: stripes 2s linear 1 forwards;
 }
-.logo:hover a{
+.logo:hover h3{
   mix-blend-mode: multiply;
-}
-header .logo a {
-  text-decoration: none;
-  text-align: center;
-}
+} 
 @keyframes stripes {
   to {
     background-size:100% 100%;
   }
 }
+
+
 @media print {
   header {
     background-color: rgb(57, 90, 135);
   }
-  header .logo a {
+  header .logo h3{
     color: rgb(57, 90, 135);
   }
 }

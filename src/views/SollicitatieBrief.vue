@@ -23,20 +23,21 @@
     <section class="sollicitatier">
       <div class="company-details">
         <div class="company-name">
-          <p>Mediabirds</p>
+          <p>Mivar</p>
         </div>
         <div class="company-adress">
-          <p>Galvanistraat 7</p>
-          <p>6716 AE Ede</p>
+          <p></p>
+          <p>Buskesdries 9</p>
+          <p>6673 DP Andelst</p>
         </div>
       </div>
       <div class="solliciteren-date">
-        <p>Arnhem, 19 mei 2022</p>
+        <p>Arnhem, 24 mei 2022</p>
       </div>
       <div class="betreft">
         <p>
           Betreft: sollicitatie naar de functie van
-          <span>Front-end wordpress developer</span>
+          <span>Front-end developer</span>
         </p>
       </div>
       <div class="solliciteren-body">
@@ -44,9 +45,9 @@
         <div class="solliciteren-text" contenteditable="true">
           <p>
             Met enthousiasme las ik op uw website de vacature waarin staat dat u
-            opzoek bent naar een front-end WordPress developer. Graag
-            solliciteer ik naar deze boeiende en uitdagende functie en in deze
-            brief zal ik mijn motivatie nader toelichten.
+            opzoek bent naar een front-end developer. Graag solliciteer ik naar
+            deze boeiende en uitdagende functie en in deze brief zal ik mijn
+            motivatie nader toelichten.
           </p>
           <p>
             Als front-end developer ben ik verantwoordelijk voor het design en
@@ -54,20 +55,21 @@
             komen tot het beste resultaat dat klanten tevreden stelt .
           </p>
           <p>
-            Ik heb kennis van en ervaring met JavaScript, JQuery, VueJS CSS
-            bootstrap wordPress en aanvullende libraries voor front-end
-            development en single page applicaties.
+            Ik heb kennis van en ervaring met HTML, JavaScript, JQuery, VueJS
+            CSS bootstrap en aanvullende libraries voor front-end development en
+            single page applicaties.
           </p>
           <p>
-            Bij Mediabirds werd ik aangetrokken door jullie interesse in
-            medewerkers en het werken aan hun ontwikkeling . Ik vind het prettig
-            om te werken met een , enthousiast , creatief en jong team .
+            Bij Mivar werd ik aangetrokken door jullie informele werksfeer en
+            jullie interesse in medewerkers en het werken aan hun ontwikkeling.
+            Ik vind het prettig om te werken met een vriendelijk, enthousiast en
+            creatief team .
           </p>
           <p>
-            Ik ben een rustig persoon met een veel geduld en
-            verantwoordelijkheidsgevoel. Graag werk ik samen in een team waarbij
-            ik kan leren van collega’s en zij van mij. Ik kan ook zelfstandig
-            werken en heb een groot verantwoordelijkheidsgevoel.
+            Ik ben een rustig persoon met een veel geduld en ik ben leergierig
+            met enthousiasme. Graag werk ik samen in een team waarbij ik kan
+            leren van collega’s en zij van mij. Ik kan ook zelfstandig werken en
+            heb een groot verantwoordelijkheidsgevoel.
           </p>
           <p>
             Graag draag ik als front-end developer bij aan de innovatieve

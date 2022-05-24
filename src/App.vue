@@ -11,7 +11,6 @@ export default {
     <header-view />
     <main-view />
     <footer-view />
-    
   </div>
 </template>
 <style>

@@ -20,9 +20,12 @@
         v-model="pdfName"
       />
     </div>
-    <button class="btn btn-success " @click="createPdfFiles()">
+    <button class="btn btn-success" @click="createPdfFiles()">
       create pdf
     </button>
+    <div class="test">
+      <a href="/">Hello World</a>
+    </div>
   </div>
 </template>
 <script>
@@ -48,5 +51,38 @@ export default {
 .html-ToPdf input {
   width: 50%;
   margin: 10px;
+}
+.test a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+  
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+
+  transition: background-position 275ms ease;
+}
+.test a:hover {
+  background-position: 0 100%;
+
+  /*background: linear-gradient(crimson, crimson) white no-repeat 0 0;
+  background-size: 0 100%;
+  animation: stripes 2s linear 1 forwards;*/
+}
+.test:hover a {
+  mix-blend-mode: multiply;
+}
+@keyframes stripes {
+  to {
+    background-size: 100% 100%;
+  }
 }
 </style>
