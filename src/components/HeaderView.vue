@@ -8,10 +8,10 @@
           <router-link to="/" class="nav-link">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link">about</router-link>
+          <router-link to="/about" class="nav-link">About</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/weather" class="nav-link">weather</router-link>
+          <router-link to="/weather" class="nav-link">Weather</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/sollicitatiebrief" class="nav-link"
@@ -19,7 +19,7 @@
           >
         </li>
         <li class="nav-item">
-          <router-link to="/help" class="nav-link">help</router-link>
+          <router-link to="/help" class="nav-link">Help</router-link>
         </li>
       </ul>
     </div>
@@ -55,7 +55,7 @@ header {
   color: rgb(96, 152, 231);
 }
 .nav-item a {
-  color: #5bd2ec;
+  color: #81a9b5;
   font-weight: bold;
 }
 .nav-item:hover {

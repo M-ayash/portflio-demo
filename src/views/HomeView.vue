@@ -27,7 +27,7 @@ export default {
 </script>
 <style>
 .home{
-  background: url("@/assets/img/sky5.jpg");
+  background: url("@/assets/img/sky8.jpg");
   background-size: cover;
   background-position: sticky;
   background-attachment: fixed;

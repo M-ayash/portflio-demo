@@ -1,5 +1,5 @@
 <template>
-  <section class="row main-page" id="main-page">
+  <section class="main-page pt-2" id="main-page">
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <button @click="goto('my-skills')" class="btn btn-light me-4">
@@ -7,65 +7,61 @@
         </button>
       </li>
       <li class="nav-item">
-        <button
-          @click="goto('contact')"
-          class="btn btn-success btn-contact me-4"
-        >
-          contact
+        <button @click="goto('contact')" class=" btn btn-contact me-4">
+          Contact
         </button>
       </li>
     </ul>
-
-    <div class="col-12 col-md-6 main-parg mt-5">
-      <h5>Hello I am</h5>
-      <h1>Mohammad</h1>
-      <h3>Front-end Developer</h3>
-      <p>
-        I am a web developer with frontend experience Knowledge of HTML, CSS,
-        Javascript Wordpress and Vuejs.
-      </p>
-      <div class="social-icons">
-        <a
-          class="fa-brands fa-twitter"
-          href="https://twitter.com/Mohammad_ay_87"
-        ></a>
-        <a
-          class="fa-brands fa-facebook"
-          href="https://www.facebook.com/mohammad.ayash.88"
-        ></a>
-        <a
-          class="fa-brands fa-linkedin"
-          href="https://www.linkedin.com/in/mohammad-ayash-465216231/"
-        ></a>
-        <a
-          class="fa-brands fa-instagram"
-          href="https://www.instagram.com/mohammad.ayash.88/"
-        ></a>
-        <a class="fa-brands fa-github" href="https://github.com/M-ayash"></a>
+    <div class="main-content">
+      <div class="main-parg">
+        <h5>Hello I am</h5>
+        <h1>Mohammad</h1>
+        <h3>Front-end Developer</h3>
+        <p>
+          I am a web developer with frontend experience Knowledge of HTML, CSS,
+          Javascript Wordpress and Vuejs.
+        </p>
+        <div class="social-icons">
+          <a
+            class="fa-brands fa-twitter"
+            href="https://twitter.com/Mohammad_ay_87"
+          ></a>
+          <a
+            class="fa-brands fa-facebook"
+            href="https://www.facebook.com/mohammad.ayash.88"
+          ></a>
+          <a
+            class="fa-brands fa-linkedin"
+            href="https://www.linkedin.com/in/mohammad-ayash-465216231/"
+          ></a>
+          <a
+            class="fa-brands fa-instagram"
+            href="https://www.instagram.com/mohammad.ayash.88/"
+          ></a>
+          <a class="fa-brands fa-github" href="https://github.com/M-ayash"></a>
+        </div>
+        <div>
+          <a class="btn btn-contact m-4" @click="goto('contact')"
+            >Contact</a
+          >
+        </div>
+      </div>
+      <div class="main-img">
+        <img
+          src="../assets/img/moon1.png"
+          alt="laptop"
+          class="rounded-circle"
+        />
       </div>
       <div>
-        <a class="btn btn-success btn-contact m-4" @click="goto('contact')"
-          >contact</a
+        <button
+          class="btn text-white border border-white btn-scroll-top"
+          @click="goto('main-page')"
+          title="go top"
         >
+          &#8679;
+        </button>
       </div>
-    </div>
-    <div class="col-12 col-md-3 main-img" >
-      <img
-        src="@/assets/img/img_11.jpg"
-        alt="laptop"
-        class="rounded-circle"
-        width="250"
-        height="250"
-      />
-    </div>
-    <div>
-      <button
-        class="btn text-white border border-white btn-scroll-top "
-        @click="goto('main-page')"
-        title="go top"
-      >
-        &#8679;
-      </button>
     </div>
   </section>
 </template>
@@ -85,33 +81,36 @@ export default {
 .main-page {
   min-height: 100vh;
   min-width: 100%;
+}
+.main-content {
+  display: flex;
+  min-height: 90vh;
+  min-width: 100%;
   align-items: center;
   justify-content: space-evenly;
+
 }
 .main-parg {
+  float: left;
+  width: 40%;
   font-weight: bold;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.main-parg *:hover {
-  transform: translateY(-10%);
-
-}
 .main-parg h1 {
-  position: relative;
   font-size: 100px;
-  color: rgb(18, 11, 105);
+  color: rgb(151 204 237);
   animation: nameStart 2s linear 0s normal;
 }
 @keyframes nameStart {
-0%{
-  transform: translate(0px,-400px);
-}
-80%{
-    transform: translate(0px,-400px);
-}
-90%{
-  transform: translate(0px,40px);
-}
+  0% {
+    transform: translate(0px, -400px);
+  }
+  80% {
+    transform: translate(0px, -400px);
+  }
+  90% {
+    transform: translate(0px, 40px);
+  }
 }
 .main-parg h3 {
   font-size: 50px;
@@ -139,6 +138,8 @@ export default {
 .btn-contact {
   font-size: 20px;
   padding: 20px 50px;
+  background-color: #81a9b5!important;
+  color: #fff !important;
 }
 .btn-scroll-top {
   position: fixed;
@@ -147,18 +148,18 @@ export default {
   right: 5px;
   border-radius: 10px;
 }
-.main-img img{
-  box-shadow: 0px 0px 3px 10px #062544;
+.main-img {
 }
-.main-img img:hover{
-  animation: rotaion 5s linear 0s infinite alternate;
+.main-img img:hover {
+
+  animation: rotation 40s linear 0s infinite forwards;
 }
-@keyframes rotaion {
-  form{
+@keyframes rotation {
+  form {
       transform: rotate(0deg);
   }
-  to{
-    transform: rotate(-15deg);
+  to {
+      transform: rotate(-360deg);
   }
 }
 @media (max-width: 768px) {
@@ -167,9 +168,15 @@ export default {
     padding: 10px;
     flex-direction: column;
   }
+  .main-content {
+    display: block;
+    flex-direction: column;
+  }
   .main-parg {
+    width: 100%;
     text-shadow: 1px solid black;
     padding: 0;
+
   }
   .main-parg h1 {
     font-size: 4em;

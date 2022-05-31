@@ -16,7 +16,7 @@
          <img src="@/assets/img/portolio_wit_Vuejs.jpg" />
       </experience-card>
       <div class="experience-content">
-      <experience-card cardText="Wordpress theme from scratch" >
+      <experience-card cardText="Wordpress theme from scratch" @click="goto('http://www.mayash.wp-concept.nl/website/')" >
          <img src="@/assets/img/wp_img.png" />
       </experience-card>
       <experience-card cardText="Coming soon...">

@@ -1,15 +1,17 @@
 <script>
 import FooterView from "./components/FooterView.vue";
 import HeaderView from "./components/HeaderView.vue";
-import MainView from "./components/MainView.vue";
 export default {
-  components: { HeaderView, MainView, FooterView },
+  components: { HeaderView, FooterView },
 };
 </script>
 <template>
   <div>
     <header-view />
-    <main-view />
+    <div class="main">
+      <router-view />
+    </div>
+    
     <footer-view />
   </div>
 </template>
@@ -22,6 +24,11 @@ export default {
   padding: 0;
   background-color: rgb(101, 157, 243);
   overflow: hidden;
+}
+.main{
+  padding: 0;
+  margin: 0;
+  padding-top: 4.5em;
 }
 @media (max-width: 810px) {
   #app {
