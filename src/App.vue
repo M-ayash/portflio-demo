@@ -22,7 +22,6 @@ export default {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  background-color: rgb(101, 157, 243);
   overflow: hidden;
 }
 .main{

@@ -57,7 +57,7 @@
       <h3 class="job-name">Front-end Developer</h3>
       <div class="personalia-details">
         <div class="email">
-          <p><i class="fa-solid fa-envelope"></i> mohammadhd1987@gmail.com</p>
+          <p><i class="fa-solid fa-envelope"></i> m.ayash@ictmaatwerk.com</p>
         </div>
         <div class="phone"></div>
         <div class="adress">

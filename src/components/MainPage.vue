@@ -48,9 +48,10 @@
       </div>
       <div class="main-img">
         <img
-          src="../assets/img/moon1.png"
-          alt="laptop"
-          class="rounded-circle"
+          src="../assets/img/laptop 4.png"
+          alt="laptp"
+          width="500"
+         
         />
       </div>
       <div>
@@ -149,19 +150,12 @@ export default {
   border-radius: 10px;
 }
 .main-img {
-}
-.main-img img:hover {
+  display: flex;
+  align-items: center;
 
-  animation: rotation 40s linear 0s infinite forwards;
 }
-@keyframes rotation {
-  form {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(-360deg);
-  }
-}
+
+
 @media (max-width: 768px) {
   .main-page {
     margin: 5px;
