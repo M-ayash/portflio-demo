@@ -6,17 +6,7 @@
       <img src="../assets/img/moon1.png" alt="moon" class="rounded-circle" />
     </div>
 
-    <div class="svg-bg" >
-      <svg viewBox="0 0 500 700 " preserveAspectRatio="none" >
-        <clipPath id="shape" >
-        <path
-          d="M0,200 C150,200 350,0 500,200 L500,500 L0,500 Z"
-        >
-        </path>
-        </clipPath>
-      </svg>
-    </div>
-      <img src="../assets/img/bg-weather.jpg" alt="" class="background-img-2" />
+    
     <div id="star0" class="star"></div>
     <MainPage />
     <ExperienceSection />
@@ -62,19 +52,7 @@ export default {
   width: 10%;
 }
 
-.svg-bg {
-  position: relative;
-}
-.svg-bg svg{
-  position: absolute;
-}
-.background-img-2{
-  top: 300px;
-  width: 500px;
-  position: fixed;
- clip-path: url(#shape);
-  z-index: -98;
-}
+
 .moon-img img:hover {
   animation: rotation 40s linear 0s infinite forwards;
 }

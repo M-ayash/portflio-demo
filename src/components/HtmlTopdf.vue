@@ -1,6 +1,5 @@
 <template>
   <div class="html-ToPdf m-3">
-    <img src="../assets/img/sky6.jpg" alt="" />
     <div class="svg-clip" >
       <svg viewBox="0 0 "  >
           <circle cx="50" cy="50" r="50" style="fill:red"/>
@@ -66,12 +65,7 @@ export default {
   background-position: sticky;
   background-attachment: fixed;
 }
-.html-ToPdf img{
-position: fixed;
-  width: 100%;
-  min-height: 100%;
-  z-index: -100;
-}
+
 .bg-clip{
   
   position: relative;
