@@ -23,16 +23,16 @@
     <section class="sollicitatier">
       <div class="company-details">
         <div class="company-name">
-          <p>Mivar</p>
+          <p>Sales Wizard b.v.</p>
         </div>
         <div class="company-adress">
           <p></p>
-          <p>Buskesdries 9</p>
-          <p>6673 DP Andelst</p>
+          <p>Velperbinnensingel 5</p>
+          <p>6811 BP, Arnhem</p>
         </div>
       </div>
       <div class="solliciteren-date">
-        <p>Arnhem, 24 mei 2022</p>
+        <p>Arnhem, 24 Juni 2022</p>
       </div>
       <div class="betreft">
         <p>
@@ -55,21 +55,20 @@
             komen tot het beste resultaat dat klanten tevreden stelt .
           </p>
           <p>
-            Ik heb kennis van en ervaring met HTML, JavaScript, JQuery, VueJS
-            CSS bootstrap en aanvullende libraries voor front-end development en
-            single page applicaties.
+            Ik heb kennis van en ervaring met JavaScript, WordPress,PHP, JQuery,
+            VueJS CSS bootstrap en aanvullende libraries voor front-end
+            development en single page applicaties.
           </p>
           <p>
-            Bij Mivar werd ik aangetrokken door jullie informele werksfeer en
-            jullie interesse in medewerkers en het werken aan hun ontwikkeling.
-            Ik vind het prettig om te werken met een vriendelijk, enthousiast en
-            creatief team .
+            Bij Sales Wizard hoop ik Dat ik mijzelf kan ontwikkelen om een
+            professionele WordPress developer te worden. Ik vind het prettig om
+            te werken met een , enthousiast , creatief en vriendelijke team .
           </p>
           <p>
-            Ik ben een rustig persoon met een veel geduld en ik ben leergierig
-            met enthousiasme. Graag werk ik samen in een team waarbij ik kan
-            leren van collega’s en zij van mij. Ik kan ook zelfstandig werken en
-            heb een groot verantwoordelijkheidsgevoel.
+            Ik ben een rustig persoon met een veel geduld en
+            verantwoordelijkheidsgevoel. Graag werk ik samen in een team waarbij
+            ik kan leren van collega’s en zij van mij. Ik kan ook zelfstandig
+            werken .
           </p>
           <p>
             Graag draag ik als front-end developer bij aan de innovatieve
