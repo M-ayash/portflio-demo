@@ -48,7 +48,7 @@
       </div>
       <div class="main-img">
         <img
-          src="../assets/img/laptop 4.png"
+          src="@\assets\img\laptop4.png"
           alt="laptp"
           width="500"
          
