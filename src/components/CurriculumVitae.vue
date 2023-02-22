@@ -110,8 +110,8 @@
 
 <style>
 .CV {
-  display: block;
   background-color: #fff;
+  min-height: 100vh;
   min-width: 100%;
 }
 .cv-title h1 {
@@ -123,6 +123,13 @@
   margin-bottom: 0;
   background-color: #fff;
   color: rgb(57, 90, 135);
+}
+.left-title {
+ 
+  
+}
+.right-title {
+ 
 }
 .job-name {
   background-color: rgb(57, 90, 135);
@@ -205,12 +212,6 @@
 .opleiding p {
   color: gray;
   padding-left: 10px;
-}
-@media (max-width: 768px) {
-   .CV{
-    padding-top:10em;
-    width: 100%;
-  }
 }
 @media print {
   .cv {

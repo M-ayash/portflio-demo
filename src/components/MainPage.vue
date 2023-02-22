@@ -1,5 +1,5 @@
 <template>
-  <section class="main-page" id="main-page">
+  <section class="main-page pt-2" id="main-page">
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <button @click="goto('my-skills')" class="btn btn-light me-4">
@@ -156,10 +156,10 @@ export default {
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   .main-page {
     margin: 5px;
-    padding: 40px;
+    padding: 10px;
     flex-direction: column;
   }
   .main-content {
@@ -188,24 +188,13 @@ export default {
     font-size: 20px;
   }
   .main-img {
-    display: block;
     text-align: center;
-  }
-  .main-img img{
-      width: 100%;
   }
   @media (max-width: 576px) {
     .main-page {
       padding: 20px;
       padding-top: 6em;
     }
-  }
-
-   @media (max-width: 360px) {
-    .main-page {
-      padding-top: 10em;
-    }
-    
   }
 }
 </style>

@@ -32,13 +32,6 @@ export default {
 @media (max-width: 810px) {
   #app {
     font-family:Arial, Helvetica, sans-serif;
-  
   }
-}
-  @media (max-width: 360px) {
-  #app {
-    font: 0.5em sans-serif;
-  }
-  
 }
 </style>

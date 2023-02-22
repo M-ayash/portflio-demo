@@ -94,64 +94,62 @@
         </div>
         <hr />
       </div>
-
-      <div class="work-exper">
-        <h2>WERK ERVARING</h2>
-        <div>
-          <h3>Hardware en Backend developer</h3>
-          <p><span>ICTMaatwerk </span>|<span> 2023-heden</span></p>
-          <ul>
-            <li>Hardware medeWerker reparatie en controleren</li>
-            <li>
-              Website gemaakt en beheerd met<br />
-              Django en Vuejs
-            </li>
-            
-          </ul>
+    </section>
+    <section class="sollicitatier">
+      <div class="company-details">
+        <div class="company-name">
+          <p>Sales Wizard b.v.</p>
         </div>
-        <div>
-          <h3>WordPress frontend developer</h3>
-          <p><span>saleswizard </span>|<span> 2022-2023</span></p>
-          <ul>
-            <li>
-              Website gemaakt en beheerd met<br />
-               WordPress, PHP en JavaScript
-            </li>
-            <li>wordpress  ontwikkeld</li>
-          </ul>
-        </div>
-        <div>
-          <h3>front-end developer</h3>
-          <p><span>ICTMaatwerk </span>|<span> 2021-2022</span></p>
-          <ul>
-            <li>
-              Website gemaakt en beheerd met<br />
-              HTML,CSS,Javascript,Bootstrap,php,Vuejs
-            </li>
-            <li>Wep Applicaties ontwikkeld</li>
-          </ul>
+        <div class="company-adress">
+          <p></p>
+          <p>Velperbinnensingel 5</p>
+          <p>6811 BP, Arnhem</p>
         </div>
       </div>
-      <div class="opleiding">
-        <h2>OPLEIDING</h2>
-        <div>
-          <h3>NT2-B1 diploma</h3>
-          <p><span>Rijnijssel-Arnhem </span>|<span> 2019-2022</span></p>
-          <ul>
-            <li>
-              NT2-B1
-            </li>
-            <li>inburgering diploma</li>
-          </ul>
-        </div>
-        <div>
-          <h3>ICT-engineering onderwijs</h3>
-          <p><span>Damascus-syrie </span>|<span> 2008-2012</span></p>
-          <ul>
-            <li>software engineering</li>
-            <li>web designer,database,</li>
-            <li>software developer</li>
-          </ul>
+      <div class="solliciteren-date">
+        <p>Arnhem, 24 Juni 2022</p>
+      </div>
+      <div class="betreft">
+        <p>
+          Betreft: sollicitatie naar de functie van
+          <span>Front-end developer</span>
+        </p>
+      </div>
+      <div class="solliciteren-body">
+        <p class="solliciteren-top">Geachte Mevrouw/Meneer,</p>
+        <div class="solliciteren-text" contenteditable="true">
+          <p>
+            Met enthousiasme las ik op uw website de vacature waarin staat dat u
+            opzoek bent naar een front-end developer. Graag solliciteer ik naar
+            deze boeiende en uitdagende functie en in deze brief zal ik mijn
+            motivatie nader toelichten.
+          </p>
+          <p>
+            Als front-end developer ben ik verantwoordelijk voor het design en
+            de implementatie van user interfaces binnen webapplicaties om te
+            komen tot het beste resultaat dat klanten tevreden stelt .
+          </p>
+          <p>
+            Ik heb kennis van en ervaring met JavaScript, WordPress,PHP, JQuery,
+            VueJS CSS bootstrap en aanvullende libraries voor front-end
+            development en single page applicaties.
+          </p>
+          <p>
+            Bij Sales Wizard hoop ik Dat ik mijzelf kan ontwikkelen om een
+            professionele WordPress developer te worden. Ik vind het prettig om
+            te werken met een , enthousiast , creatief en vriendelijke team .
+          </p>
+          <p>
+            Ik ben een rustig persoon met een veel geduld en
+            verantwoordelijkheidsgevoel. Graag werk ik samen in een team waarbij
+            ik kan leren van collega’s en zij van mij. Ik kan ook zelfstandig
+            werken .
+          </p>
+          <p>
+            Graag draag ik als front-end developer bij aan de innovatieve
+            projecten die uw bedrijf levert. Met deze brief heeft u hopelijk een
+            goed beeld gekregen van mijn capaciteiten die hiervoor nodig zijn.
+          </p>
         </div>
       </div>
     </section>
